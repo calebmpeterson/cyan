@@ -1,0 +1,19 @@
+{
+  "name": "cyan",
+  "version": "1.0.0",
+  "description": "Cyan theme for Bootstrap 4",
+  "main": "index.js",
+  "author": "caleb.peterson@cubicle6.com",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "build": "node-sass src/build.scss dist/bootstrap.css",
+    "watch": "node-sass src/build.scss dist/bootstrap.css --watch",
+    "serve": "live-server --open=docs/"
+  }
+}
